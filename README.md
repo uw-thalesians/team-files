@@ -4,7 +4,10 @@ Place to keep shared files like custom default .gitignore files for our projects
 
 ## How to Use this Repository
 Add content that should be used for setting up repos, or otherwise managing repos.
-Be sure to add an entry below describing the file you add and what it should be used for. 
+
+Be sure to add an entry below describing the file you add and what it should be used for.
+
+Commit directly to master: OK
 
 
 ## Included Resources
