@@ -12,3 +12,7 @@ Note, in order for ADO to know to watch for the Azure Board tag, the repository 
 AB#{ID}
 
 If you include the above, where {ID} is replaced with the work-item id from ADO, in your commit or PR, the coresponding ADO work-item will attach a link to the commit or PR to the work-item. Note, there are additional keywords that ADO will watch for in a commit message with the AB#{ID} format, and take specific actions. See [here](https://docs.microsoft.com/en-us/azure/devops/boards/github/link-to-from-github?view=vsts) for more information.  
+
+
+## Public Repository Security Considerations
+This is a public repository. Do no store any sensitive information in this repository, such as secure API access tokens, certificates, private keys, etc. If your build process depends on this content, be sure to add the file to the .gitignore before saving it to the local clone of the repository, or load the information by an envirnment variable. At this time there is not an agreed upon location to store this information. (Suggestion: Team Drive Folder).
