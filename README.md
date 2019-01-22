@@ -18,3 +18,8 @@ File: .default-gitignore
 Description: This file contains the default gitignore for our repositories, with entries covering the IDE's and languages used by this organization. 
 
 Many of the rules in this gitignore are from here: https://github.com/github/gitignore
+
+### Default README
+File: default-README.md
+
+Description: This files contains default README content for repositories in this organization. 
