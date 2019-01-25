@@ -1,4 +1,5 @@
 # Default Repository README
+Version: 2019.01.24
 ## Purpose
 The purpose of this readme is to provide common readme content for our repositories. 
 
